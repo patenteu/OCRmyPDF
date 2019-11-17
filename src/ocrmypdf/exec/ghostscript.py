@@ -37,11 +37,11 @@ gslog = logging.getLogger()
 
 GS = 'gs'
 if os.name == 'nt':
-    GS = 'gswin64c'
+    GS = 'gswin64c.exe'
     try:
         get_version(GS)
     except MissingDependencyError:
-        GS = 'gswin32c'
+        GS = 'gswin32c.exe'
         get_version(GS)
 
 
