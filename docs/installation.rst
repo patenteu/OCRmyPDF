@@ -438,6 +438,12 @@ You must install the following for Windows using their installers:
 * Ghostscript 9.50 or later
 * QPDF 9.0.2 or later
 
+You can install all except Tesseract with the Chocolatey package manager:
+
+* ``choco install python3``
+* ``choco install ghostscript``
+* ``choco install qpdf``
+
 Modify your ``PATH`` environment variable so that Tesseract, Ghostscript and QPDF
 executables on the ``PATH``.
 
