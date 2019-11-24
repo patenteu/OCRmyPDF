@@ -77,7 +77,7 @@ Docker entirely.
 
    alias ocrmypdf='docker run --rm -i ocrmypdf'
    ocrmypdf --version  # runs docker version
-   ocrmypdf <input.pdf >output.pdf
+   ocrmypdf - - <input.pdf >output.pdf
 
 Or in the wonderful `fish shell <https://fishshell.com/>`__:
 
